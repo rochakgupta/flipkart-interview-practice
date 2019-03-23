@@ -1,15 +1,8 @@
-/**
- * 
- */
 package com.flipkart.interview;
 
 import java.util.HashSet;
 import java.util.Set;
 
-/**
- * @author rochak
- *
- */
 public class Category {
     int id;
 

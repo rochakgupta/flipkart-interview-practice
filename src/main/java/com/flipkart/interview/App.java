@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.flipkart.interview;
 
 import java.util.HashMap;
@@ -9,13 +6,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-/**
- * @author rochak
- *
- */
 public class App {
     private Map<Integer, Person> persons;
+
     private Map<Integer, Category> categories;
+
     private Map<Integer, Product> products;
 
     public App() {
@@ -50,7 +45,7 @@ public class App {
 
     public void blacklistPerson(int personId) {
         Person person = persons.get(personId);
-        person.blacklist();
+        person.resetProductIds();
     }
 
     public Product getBestSellingProduct() {

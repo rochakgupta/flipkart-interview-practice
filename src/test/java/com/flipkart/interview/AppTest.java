@@ -9,10 +9,6 @@ import org.junit.Test;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-/**
- * @author rochak
- *
- */
 public class AppTest {
     private static App app;
 

@@ -1,12 +1,5 @@
-/**
- * 
- */
 package com.flipkart.interview;
 
-/**
- * @author rochak
- *
- */
 public class Product {
     int id;
 

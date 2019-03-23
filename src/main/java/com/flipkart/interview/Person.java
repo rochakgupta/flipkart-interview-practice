@@ -1,15 +1,8 @@
-/**
- * 
- */
 package com.flipkart.interview;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author rochak
- *
- */
 public class Person {
     int id;
 
@@ -46,7 +39,7 @@ public class Person {
         }
     }
 
-    public void blacklist() {
+    public void resetProductIds() {
         productIds = new ArrayList<Integer>();
     }
 }
