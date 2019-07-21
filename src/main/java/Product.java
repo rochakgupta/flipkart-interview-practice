@@ -1,5 +1,3 @@
-package com.flipkart.interview;
-
 public class Product {
     int id;
 
